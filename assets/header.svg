@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Kenzy Zero — building open-source developer tools">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7d774"/>
+      <stop offset="0.5" stop-color="#f0b429"/>
+      <stop offset="1" stop-color="#c98a1a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.55" r="0.55">
+      <stop offset="0" stop-color="#f0b429" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#f0b429" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#f0b429" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="240" rx="0" fill="#0d1117"/>
+  <rect width="1000" height="240" fill="url(#dots)"/>
+  <rect width="1000" height="240" fill="url(#glow)"/>
+  <rect width="1000" height="3" fill="url(#gold)"/>
+
+  <text x="42" y="54" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" letter-spacing="3.5" fill="#8b949e">// OPEN-SOURCE BUILDER</text>
+
+  <text x="38" y="138" font-family="'Segoe UI',system-ui,sans-serif" font-size="74" font-weight="800" letter-spacing="1.5" fill="url(#gold)">KENZY ZERO</text>
+  <rect x="42" y="156" width="156" height="4" rx="2" fill="url(#gold)"/>
+
+  <text x="44" y="196" font-family="'JetBrains Mono','Courier New',monospace" font-size="16" fill="#c9d1d9">building open-source developer tools</text>
+
+  <g font-family="'JetBrains Mono','Courier New',monospace" font-size="13">
+    <text x="962" y="66" text-anchor="end" fill="#6e7681"><tspan fill="#f0b429">01</tspan>  whoami</text>
+    <text x="962" y="90" text-anchor="end" fill="#6e7681"><tspan fill="#f0b429">02</tspan>  what I do</text>
+    <text x="962" y="114" text-anchor="end" fill="#6e7681"><tspan fill="#f0b429">03</tspan>  building</text>
+    <text x="962" y="138" text-anchor="end" fill="#6e7681"><tspan fill="#f0b429">04</tspan>  stack</text>
+    <text x="962" y="162" text-anchor="end" fill="#6e7681"><tspan fill="#f0b429">05</tspan>  signals</text>
+    <text x="962" y="186" text-anchor="end" fill="#6e7681"><tspan fill="#f0b429">06</tspan>  connect</text>
+  </g>
+</svg>
