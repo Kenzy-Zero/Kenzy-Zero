@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://pypi.org/project/kenze/"><img src="https://img.shields.io/badge/kenze-live%20on%20PyPI-f0b429?style=flat-square&logo=pypi&logoColor=0d1117&labelColor=161b22" alt="kenze on PyPI" /></a>
   <a href="https://github.com/Kenzy-Zero?tab=repositories"><img src="https://img.shields.io/badge/repositories-8b949e?style=flat-square&logo=github&logoColor=white&labelColor=161b22" alt="repositories" /></a>
-  <a href="mailto:0kenmusic0@gmail.com"><img src="https://img.shields.io/badge/email-8b949e?style=flat-square&logo=gmail&logoColor=white&labelColor=161b22" alt="email" /></a>
+  <a href="mailto:kenzy.zero.k0@gmail.com"><img src="https://img.shields.io/badge/email-8b949e?style=flat-square&logo=gmail&logoColor=white&labelColor=161b22" alt="email" /></a>
   <img src="https://komarev.com/ghpvc/?username=Kenzy-Zero&label=views&color=f0b429&style=flat-square&labelColor=161b22" alt="profile views" />
 </p>
 
@@ -107,7 +107,7 @@ pip install kenze          # then just run:  kenze
 
 <p>
   <a href="https://github.com/Kenzy-Zero"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="mailto:0kenmusic0@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:kenzy.zero.k0@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://pypi.org/project/kenze/"><img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" /></a>
 </p>
 
