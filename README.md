@@ -95,10 +95,12 @@ pip install kenze          # then just run:  kenze
 <img src="assets/div-signals.svg" width="100%" alt="signals" />
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Kenzy-Zero&hide_border=true&background=0d1117&stroke=30363d&ring=f0b429&fire=f0b429&currStreakLabel=f0b429&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" alt="streak" />
+  <a href="https://github.com/Kenzy-Zero"><img src="https://img.shields.io/badge/contributions-264%2B-f0b429?style=flat-square&logo=github&logoColor=0d1117&labelColor=161b22" alt="contributions" /></a>
+  <a href="https://github.com/Kenzy-Zero/kenze/commits/main"><img src="https://img.shields.io/github/last-commit/Kenzy-Zero/kenze?style=flat-square&color=f0b429&logo=git&logoColor=white&labelColor=161b22&label=last%20commit" alt="last commit" /></a>
+  <img src="https://img.shields.io/badge/building%20since-May%202026-f0b429?style=flat-square&logo=rocket&logoColor=0d1117&labelColor=161b22" alt="building since May 2026" />
 </p>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Kenzy-Zero&bg_color=0d1117&color=f0b429&line=f0b429&point=ffffff&area=true&hide_border=true&cb=20260718" alt="contribution graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Kenzy-Zero&bg_color=0d1117&color=f0b429&line=f0b429&point=ffffff&area=true&hide_border=true" alt="contribution graph" />
 
 <br/>
 
