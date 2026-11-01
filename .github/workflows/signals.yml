@@ -1,0 +1,41 @@
+name: signals
+
+# Re-render assets/signals.svg (contributions, streaks, heatmap) once a day.
+# The card is built from the GitHub GraphQL contribution calendar with the
+# workflow's own token; on any API error the step fails and the old card stays.
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: signals
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Render signals.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/signals.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- assets/signals.svg; then
+            echo "signals.svg unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/signals.svg
+          git commit -m "signals: refresh $(date -u +%F)"
+          git push
